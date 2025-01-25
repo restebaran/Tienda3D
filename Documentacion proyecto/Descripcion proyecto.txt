@@ -1,0 +1,25 @@
+Instrucciones para el Proyecto de la 2da Evaluación
+
+Creación del Proyecto
+Organiza el proyecto siguiendo la estructura de carpetas indicada:
+index.html: Archivo principal del sitio web.
+css/style.css: Archivo de estilos CSS para el diseño del sitio.
+img/: Carpeta donde se guardarán todas las imágenes necesarias para el proyecto.
+pag/: Carpeta destinada para almacenar las páginas HTML adicionales del proyecto.
+
+Creación del Repositorio en GitHub
+El líder del equipo debe crear un repositorio en GitHub.
+Añadir como colaboradores a:
+Todos los miembros del equipo.
+El profesor. (BibisGr)
+Compartir el enlace del repositorio en esta tarea.
+
+Documento del Proyecto (PROYECTO LM)Completa en el documento (PROYECTO LM):
+La temática del proyecto.
+El nombre de los miembros del grupo de trabajo.
+
+Documento del Proyecto (PROYECTO LM)
+Agrega al documento del proyecto una nueva sección que incluya:
+Una breve explicación dirigida a un cliente, describiendo la idea general del sitio web.
+Una descripción del estilo de diseño que planean utilizar.
+Un boceto o propuesta visual de cómo se vería la web. Este boceto puede ser elaborado con herramientas como Canva, PowerPoint o utilizando inteligencia artificial.
