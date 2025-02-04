@@ -15,19 +15,35 @@ button:hover{
 
 .mini_banner{
     display: flex;
+    padding: 0;
+    margin: 0;
     background-color: #9B3324;
-    height: 50px;
-    width: 100%x;
+    height: 60px;
+    width: auto;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+
 }
 .mini_banner p{
+    display: flex;
     color: white;
     text-align: center;
+    animation: mover-izquierda-derecha 8s infinite;
+
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
 }
 .encabezado{
     display: flex;
     justify-content: space-between;
+    height: auto;
 }
 .logo{
     display: flex;
@@ -63,12 +79,77 @@ button:hover{
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 20px;
+
 }
 .menu a{
     text-decoration: none;
     color: black;
     padding-left: 80px;
 }
+
+.carrousel{
+    width: 100%;
+    max-width: 120em;
+    
+}
+.carrousel .grande{
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    width: 100%;
+}
+.carrousel .img{
+    height: 100%;
+    width: 100%;
+}
+.carrousel .puntos{
+    width: 100%;
+    background-color: #9B3324;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.carrousel .punto{
+    width: 1em;
+    height: 1em;
+    background-color: blue;
+    margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .newsletter{
     background-color: rgb(243, 239, 239);

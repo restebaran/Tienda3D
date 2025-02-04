@@ -63,6 +63,8 @@ button:hover{
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 20px;
+
 }
 .menu a{
     text-decoration: none;
@@ -70,8 +72,61 @@ button:hover{
     padding-left: 80px;
 }
 
-.newsletter{
-    background-color: rgb(243, 239, 239);
+.body2{
+    background-color: rgb(243, 243, 243);
+}
+.titulo{
+    text-align: center;
+    padding-top: 2px;
+}
+.body-center1 {
+    display: flex;
+    align-items: center; 
+}
+
+.body-center1 img{
+    flex-flow: row;
+    flex: 1; 
+    min-width: 20px;
+    height: 20em; 
+    padding: 30px;
+}
+.texto1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 20px;
+    margin-right: 30px;
+}
+.body-center1 .texto1{
+    flex: 1; 
+    height: 20em; 
+}
+.body-center2{
+    display: flex;
+    align-items: center; 
+}
+.body-center2 img{
+    flex-flow: row;
+    flex: 1; 
+    min-width: 20px;
+    height: 20em; 
+    padding: 30px;
+}
+.body-center2 .texto2{
+    flex: 1; 
+    height: 20em; 
+    padding-left: 40px;
+}
+
+.texto2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 0 0;
+    margin-left: 30px;
 }
 
 .pie_pagina{

@@ -1,101 +1,145 @@
-body{
+body {
+  padding: 0;
+  margin: 0;
+}
+button {
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: #9b3324;
+  color: white;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(160, 160, 160);
+  color: black;
+}
+
+.mini_banner {
+  display: flex;
+  background-color: #9b3324;
+  height: 50px;
+  width: 100%x;
+  justify-content: center;
+  align-items: center;
+}
+.mini_banner p {
+  color: white;
+  text-align: center;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.logo img {
+  height: 125px;
+  width: auto;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.login img {
+  align-items: end;
+  width: 25px;
+  height: 25px;
+}
+.login a {
+  text-decoration: none;
+  color: black;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding-left: 80px;
+}
+
+.body_login {
+  text-align: center;
+  background-color: rgb(243, 243, 242);
+  height: 35em;
+  padding-top: 5px;
+}
+.titulo h4{
+    color: #bcb9b9;
+}
+.contenedor {
+  align-content: center;
+  background-color: white;
+  height: 25em;
+  width: 25em;
+  margin: auto;
+  border-radius: 10px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  text-align: start;
+}
+label{
+    padding: 10px;
+}
+input{
+    padding:10px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.botones button {
+  width: 100%;
+  height: 40px;
+  margin: 15px;
+}
+
+hr{
     padding: 0;
     margin: 0;
 }
-button{
-    border-width: 2px;
-    border-radius: 10px;
-    background-color: #9B3324;
-    color: white;
-    font-weight: bold;
+
+.pie_pagina {
+  margin: 30px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
 }
-button:hover{
-    background-color: rgb(160, 160, 160);
+.pie_pagina button {
+  width: 200px;
+  height: 50px;
 }
 
-.mini_banner{
-    display: flex;
-    background-color: #9B3324;
-    height: 50px;
-    width: 100%x;
-    justify-content: center;
-    align-items: center;
+.pie_pagina button a {
+  font-weight: bold;
 }
-.mini_banner p{
-    color: white;
-    text-align: center;
+.copyright {
+  display: flex;
+  font-weight: bold;
+  color: #9b3324;
 }
-.encabezado{
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    display: flex;
-    justify-content:start;
-    align-items: center;
-}
-.logo img{
-    height: 125px;
-    width: auto;
-}
-.logo a{
-    text-decoration: none;
-    font-size:40px;
-    font-weight: bold;
-    color: black;
-}
-.login{
-    display: flex;
-    align-items: center;
-    gap: 10px; 
-    padding: 20px;
-}
-.login img{
-    align-items: end;
-    width: 25px;
-    height: 25px;
-}
-.login a{
-    text-decoration: none;
-    color: black;
-}
-.menu{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.menu a{
-    text-decoration: none;
-    color: black;
-    padding-left: 80px;
-}
-
-.newsletter{
-    background-color: rgb(243, 239, 239);
-}
-
-.pie_pagina{
-    margin: 30px;
-    margin-left: 100px;
-    display: flex;
-    justify-content:space-between;
-}
-.pie_pagina button{
-    width: 200px;
-    height: 50px;
-
-}
-
-.pie_pagina button a{
-    font-weight: bold;
-}
-.copyright{
-    display: flex;
-    font-weight: bold;
-    color: #9B3324;
-}
-.redes_sociales{
-    display: flex;
-    gap: 10px;
-    height: 45px;
+.redes_sociales {
+  display: flex;
+  gap: 10px;
+  height: 45px;
 }
