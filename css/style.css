@@ -1,4 +1,77 @@
-.body´{
-    background-color: darkblue;
-    color: aliceblue;
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.mini_banner{
+    display: flex;
+    background-color: #9B3324;
+    height: 50px;
+    width: 100%x;
+    justify-content: center;
+    align-items: center;
+}
+.mini_banner p{
+    color: white;
+    text-align: center;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo img{
+    height: 125px;
+    width: auto;
+}
+.logo a{
+    text-decoration: none;
+    font-size:40px;
+    font-weight: bold;
+    color: black;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 20px;
+}
+.login img{
+    align-items: end;
+    width: 25px;
+    height: 25px;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+}
+
+.pie_pagina{
+    display: flex;
+    align-items: end;
+
+}
+.pie_pagina p{
+    justify-items: center;
+    align-items: end;
+    vertical-align: bottom;
+}
+.pie_pagina img{
+    display: flex;
+    align-items: end;
+    height: 45px;
 }
