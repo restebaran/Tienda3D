@@ -100,4 +100,9 @@ button:hover{
     display: flex;
     gap: 10px;
     height: 45px;
-}
+  }
+  a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

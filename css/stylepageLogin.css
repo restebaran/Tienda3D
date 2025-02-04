@@ -138,8 +138,13 @@ hr{
   font-weight: bold;
   color: #9b3324;
 }
-.redes_sociales {
+.redes_sociales{
   display: flex;
   gap: 10px;
   height: 45px;
+}
+a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
