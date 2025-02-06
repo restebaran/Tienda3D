@@ -72,9 +72,54 @@ button:hover{
     padding-left: 80px;
 }
 
-.newsletter{
-    background-color: rgb(243, 239, 239);
-}
+.body_login {
+    text-align: center;
+    background-color: rgb(243, 243, 242);
+    height: 35em;
+    padding-top: 5px;
+  }
+  .titulo h4{
+      color: #bcb9b9;
+  }
+  .contenedor {
+    align-content: center;
+    background-color: white;
+    height: 25em;
+    width: 25em;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: start;
+  }
+  label{
+      padding: 10px;
+  }
+  input{
+      padding:10px;
+  }
+  
+  .botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .botones button {
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+  }
+  .botones a{
+    width: 100%;
+    height: 40px;
+    margin: 15px;
+    text-decoration: none;
+    margin-bottom: 35px;
+  }
 
 .pie_pagina{
     margin: 30px;
