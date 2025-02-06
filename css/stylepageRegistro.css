@@ -75,17 +75,17 @@ button:hover {
 .body_login {
   text-align: center;
   background-color: rgb(243, 243, 242);
-  height: 35em;
+  height: 70em;
   padding-top: 5px;
 }
-.titulo h4{
-    color: #bcb9b9;
+.titulo h4 {
+  color: #bcb9b9;
 }
 .contenedor {
-  align-content: center;
   background-color: white;
-  height: 25em;
-  width: 25em;
+  height: 55em;
+  width: 40em;
+  padding-top: 0;
   margin: auto;
   border-radius: 10px;
 }
@@ -95,11 +95,12 @@ button:hover {
   padding: 5%;
   text-align: start;
 }
-label{
-    padding: 10px;
+label {
+  padding: 10px;
 }
-input{
-    padding:10px;
+input {
+  display: flex;
+  padding: 10px;
 }
 
 .botones {
@@ -111,19 +112,12 @@ input{
 .botones button {
   width: 100%;
   height: 40px;
-  margin-top: 0;
-}
-.botones a{
-  width: 100%;
-  height: 40px;
   margin: 15px;
-  text-decoration: none;
-  margin-bottom: 35px;
 }
 
-hr{
-    padding: 0;
-    margin: 0;
+hr {
+  padding: 0;
+  margin: 0;
 }
 
 .pie_pagina {
@@ -145,12 +139,12 @@ hr{
   font-weight: bold;
   color: #9b3324;
 }
-.redes_sociales{
+.redes_sociales {
   display: flex;
   gap: 10px;
   height: 45px;
 }
-a{
+a {
   display: flex;
   flex-direction: row;
   justify-content: center;
