@@ -11,7 +11,6 @@ button {
 }
 button:hover {
   background-color: rgb(160, 160, 160);
-  color: black;
 }
 
 .mini_banner {
@@ -71,52 +70,61 @@ button:hover {
   color: black;
   padding-left: 80px;
 }
-
-.body_registro {
-  text-align: center;
-  background-color: rgb(243, 243, 242);
-  height: 70em;
-  padding-top: 5px;
-}
-.titulo h4 {
-  color: #bcb9b9;
+section {
+  background-color: #e3e2e2;
 }
 .contenedor {
-  background-color: white;
-  height: 55em;
-  width: 40em;
-  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  width: 80em;
   margin: auto;
-  border-radius: 10px;
+  padding-top: 20px;
 }
-.formulario {
+.columnaImagenes {
   display: flex;
   flex-direction: column;
-  padding: 5%;
-  text-align: start;
+  height: auto;
 }
-label {
-  padding: 10px;
+.columnaImagenes img {
+  width: 100%;
+  height: auto;
 }
-input {
+.contenedor_imagPequeñas img {
+  padding: 5px;
+  height: 200px;
+  width: 200px;
+}
+.columnaTexto {
   display: flex;
-  padding: 10px;
+  flex-direction: column;
+  vertical-align: middle;
+  width: 50%;
+  height: 650px;
+  margin: 30px;
+}
+.conenedorSeleccion {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 3px 3px 3px;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.conenedorSeleccion p{
 }
 
-.botones {
+.boton {
+  margin-top: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
+  justify-content: center;
 }
-.botones button {
-  width: 100%;
-  height: 40px;
-  margin: 15px;
+.boton button {
+  width: 200px;
+  height: 30px;
 }
 
 hr {
-  padding: 0;
   margin: 0;
 }
 
